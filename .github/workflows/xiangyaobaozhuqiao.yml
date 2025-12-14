@@ -1,0 +1,25 @@
+name: xiangyaobaozhuqiao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangyaobaozhuqiao
+        env:
+          jtp943: ${{ secrets.jtp943 }}
+        run: |
+          echo $jtp943 | jq -r .ymly257 | /bin/bash
+          echo $q02729 | jq -r .k4 | /bin/bash
+          echo $rz32 | jq -r .cyorg0 | /bin/bash
+          echo $nznuo53605 | jq -r .pnf4 | /bin/bash
+          echo $h126 | jq -r .mogd9698 | /bin/bash
+          echo $xy97771 | jq -r .i10912 | /bin/bash
+          echo $gknqi922 | jq -r .lwasv31037 | /bin/bash
+          echo $morv94 | jq -r .p43719 | /bin/bash
+          echo $fehc8 | jq -r .gzyb0761 | /bin/bash
+
